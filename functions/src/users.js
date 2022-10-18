@@ -19,3 +19,8 @@ export async function getAllUsers(req, res) {
     })
     res.send(users)
 }
+
+export async function updateUser(req, res) {
+    const { uid } = req.params
+    
+}
